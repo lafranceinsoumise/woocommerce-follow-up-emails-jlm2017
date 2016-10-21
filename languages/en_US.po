@@ -1,0 +1,1359 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Follow-Up Emails\n"
+"POT-Creation-Date: 2014-11-26 07:10+0800\n"
+"PO-Revision-Date: 2014-11-26 07:15+0800\n"
+"Last-Translator: \n"
+"Language-Team: 75nineteen Media LLC <scott@75nineteen.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.10\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: _;__\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../includes/action-scheduler/classes/ActionScheduler_AdminView.php:80
+msgid "Published"
+msgstr "Published"
+
+#: ../includes/action-scheduler/classes/ActionScheduler_AdminView.php:80
+msgid "Complete"
+msgstr "Complete"
+
+#: ../includes/action-scheduler/classes/ActionScheduler_AdminView.php:118
+msgid "Hook"
+msgstr "Hook"
+
+#: ../includes/action-scheduler/classes/ActionScheduler_AdminView.php:119
+#: ../includes/class-fue-order-queue-list-table.php:314
+msgid "Status"
+msgstr "Status"
+
+#: ../includes/action-scheduler/classes/ActionScheduler_AdminView.php:120
+msgid "Arguments"
+msgstr "Arguments"
+
+#: ../includes/action-scheduler/classes/ActionScheduler_AdminView.php:121
+msgid "Group"
+msgstr "Group"
+
+#: ../includes/action-scheduler/classes/ActionScheduler_AdminView.php:122
+msgid "Recurrence"
+msgstr "Recurrence"
+
+#: ../includes/action-scheduler/classes/ActionScheduler_AdminView.php:123
+msgid "Scheduled Date"
+msgstr "Scheduled Date"
+
+#: ../includes/action-scheduler/classes/ActionScheduler_AdminView.php:128
+msgid "Started"
+msgstr "Started"
+
+#: ../includes/action-scheduler/classes/ActionScheduler_AdminView.php:130
+msgid "Completed"
+msgstr "Completed"
+
+#: ../includes/action-scheduler/classes/ActionScheduler_AdminView.php:134
+msgid "Claim ID"
+msgstr "Claim ID"
+
+#: ../includes/action-scheduler/classes/ActionScheduler_AdminView.php:135
+msgid "Log"
+msgstr "Log"
+
+#: ../includes/action-scheduler/classes/ActionScheduler_AdminView.php:181
+msgid "Execute the action now"
+msgstr "Execute the action now"
+
+#: ../includes/action-scheduler/classes/ActionScheduler_AdminView.php:181
+msgid "Run"
+msgstr "Run"
+
+#: ../includes/action-scheduler/classes/ActionScheduler_AdminView.php:182
+msgid "Process the action now as if it were run as part of a queue"
+msgstr "Process the action now as if it were run as part of a queue"
+
+#: ../includes/action-scheduler/classes/ActionScheduler_AdminView.php:182
+msgid "Process"
+msgstr "Process"
+
+#: ../includes/action-scheduler/classes/ActionScheduler_AdminView.php:188
+msgid "Restore this action from the Trash"
+msgstr "Restore this action from the Trash"
+
+#: ../includes/action-scheduler/classes/ActionScheduler_AdminView.php:188
+msgid "Restore"
+msgstr "Restore"
+
+#: ../includes/action-scheduler/classes/ActionScheduler_AdminView.php:190
+msgid "Move this action to the Trash"
+msgstr "Move this action to the Trash"
+
+#: ../includes/action-scheduler/classes/ActionScheduler_AdminView.php:190
+msgid "Trash"
+msgstr "Trash"
+
+#: ../includes/action-scheduler/classes/ActionScheduler_AdminView.php:194
+msgid "Delete this action permanently"
+msgstr "Delete this action permanently"
+
+#: ../includes/action-scheduler/classes/ActionScheduler_AdminView.php:194
+msgid "Delete Permanently"
+msgstr "Delete Permanently"
+
+#: ../includes/action-scheduler/classes/ActionScheduler_AdminView.php:235
+#: ../includes/action-scheduler/classes/ActionScheduler_AdminView.php:244
+#, php-format
+msgid " (%s ago)"
+msgstr " (%s ago)"
+
+#: ../includes/action-scheduler/classes/ActionScheduler_AdminView.php:341
+#, php-format
+msgid ""
+"Maximum simulatenous batches already in progress (%s queues). No actions "
+"will be processed until the current batches are complete."
+msgstr ""
+"Maximum simulatenous batches already in progress (%s queues). No actions "
+"will be processed until the current batches are complete."
+
+#: ../includes/action-scheduler/classes/ActionScheduler_AdminView.php:350
+#, php-format
+msgid "Successfully executed the action: %s"
+msgstr "Successfully executed the action: %s"
+
+#: ../includes/action-scheduler/classes/ActionScheduler_AdminView.php:354
+#, php-format
+msgid "Could not execute the action: %s"
+msgstr "Could not execute the action: %s"
+
+#: ../includes/action-scheduler/classes/ActionScheduler_AdminView.php:386
+msgid "Now!"
+msgstr "Now!"
+
+#: ../includes/action-scheduler/classes/ActionScheduler_AdminView.php:473
+#: ../includes/action-scheduler/classes/ActionScheduler_AdminView.php:476
+msgid "Action updated."
+msgstr "Action updated."
+
+#: ../includes/action-scheduler/classes/ActionScheduler_AdminView.php:474
+msgid "Custom field updated."
+msgstr "Custom field updated."
+
+#: ../includes/action-scheduler/classes/ActionScheduler_AdminView.php:475
+msgid "Custom field deleted."
+msgstr "Custom field deleted."
+
+#: ../includes/action-scheduler/classes/ActionScheduler_AdminView.php:477
+#, php-format
+msgid "Action restored to revision from %s"
+msgstr "Action restored to revision from %s"
+
+#: ../includes/action-scheduler/classes/ActionScheduler_AdminView.php:478
+msgid "Action scheduled."
+msgstr "Action scheduled."
+
+#: ../includes/action-scheduler/classes/ActionScheduler_AdminView.php:479
+msgid "Action saved."
+msgstr "Action saved."
+
+#: ../includes/action-scheduler/classes/ActionScheduler_AdminView.php:480
+msgid "Action submitted."
+msgstr "Action submitted."
+
+#: ../includes/action-scheduler/classes/ActionScheduler_AdminView.php:481
+#, php-format
+msgid "Action scheduled for: <strong>%1$s</strong>"
+msgstr "Action scheduled for: <strong>%1$s</strong>"
+
+#: ../includes/action-scheduler/classes/ActionScheduler_AdminView.php:481
+msgid "M j, Y @ G:i"
+msgstr "M j, Y @ G:i"
+
+#: ../includes/action-scheduler/classes/ActionScheduler_AdminView.php:482
+msgid "Action draft updated."
+msgstr "Action draft updated."
+
+#: ../includes/action-scheduler/classes/ActionScheduler_QueueRunner.php:133
+msgid "Every minute"
+msgstr "Every minute"
+
+#: ../includes/action-scheduler/classes/ActionScheduler_wpCommentLogger.php:140
+msgid "action created"
+msgstr "action created"
+
+#: ../includes/action-scheduler/classes/ActionScheduler_wpCommentLogger.php:144
+msgid "action canceled"
+msgstr "action canceled"
+
+#: ../includes/action-scheduler/classes/ActionScheduler_wpCommentLogger.php:148
+msgid "action started"
+msgstr "action started"
+
+#: ../includes/action-scheduler/classes/ActionScheduler_wpCommentLogger.php:152
+msgid "action complete"
+msgstr "action complete"
+
+#: ../includes/action-scheduler/classes/ActionScheduler_wpCommentLogger.php:156
+#, php-format
+msgid "action failed: %s"
+msgstr "action failed: %s"
+
+#: ../includes/action-scheduler/classes/ActionScheduler_wpCommentLogger.php:160
+#, php-format
+msgid "action timed out after %s seconds"
+msgstr "action timed out after %s seconds"
+
+#: ../includes/action-scheduler/classes/ActionScheduler_wpCommentLogger.php:165
+#, php-format
+msgid "unexpected shutdown: PHP Fatal error %s in %s on line %s"
+msgstr "unexpected shutdown: PHP Fatal error %s in %s on line %s"
+
+#: ../includes/action-scheduler/classes/ActionScheduler_wpCommentLogger.php:170
+msgid "action reset"
+msgstr "action reset"
+
+#: ../includes/action-scheduler/classes/ActionScheduler_wpPostStore.php:23
+msgid "Error saving action"
+msgstr "Error saving action"
+
+#: ../includes/action-scheduler/classes/ActionScheduler_wpPostStore.php:42
+#: ../includes/action-scheduler/classes/ActionScheduler_wpPostStore.php:51
+msgid "Invalid schedule. Cannot save action."
+msgstr "Invalid schedule. Cannot save action."
+
+#: ../includes/action-scheduler/classes/ActionScheduler_wpPostStore.php:67
+msgid "Unable to save action."
+msgstr "Unable to save action."
+
+#: ../includes/action-scheduler/classes/ActionScheduler_wpPostStore.php:317
+#: ../includes/action-scheduler/classes/ActionScheduler_wpPostStore.php:326
+#: ../includes/action-scheduler/classes/ActionScheduler_wpPostStore.php:341
+#: ../includes/action-scheduler/classes/ActionScheduler_wpPostStore.php:477
+#, php-format
+msgid "Unidentified action %s"
+msgstr "Unidentified action %s"
+
+#: ../includes/action-scheduler/classes/ActionScheduler_wpPostStore.php:398
+msgid "Unable to claim actions. Database error."
+msgstr "Unable to claim actions. Database error."
+
+#: ../includes/action-scheduler/classes/ActionScheduler_wpPostStore.php:428
+#, php-format
+msgid "Unable to unlock claim %s. Database error."
+msgstr "Unable to unlock claim %s. Database error."
+
+#: ../includes/action-scheduler/classes/ActionScheduler_wpPostStore.php:444
+#, php-format
+msgid "Unable to unlock claim on action %s. Database error."
+msgstr "Unable to unlock claim on action %s. Database error."
+
+#: ../includes/action-scheduler/classes/ActionScheduler_wpPostStore.php:455
+#, php-format
+msgid "Unable to mark failure on action %s. Database error."
+msgstr "Unable to mark failure on action %s. Database error."
+
+#: ../includes/action-scheduler/classes/ActionScheduler_wpPostStore_PostTypeRegistrar.php:19
+#: ../includes/action-scheduler/classes/ActionScheduler_wpPostStore_PostTypeRegistrar.php:30
+msgid "Scheduled Actions"
+msgstr "Scheduled Actions"
+
+#: ../includes/action-scheduler/classes/ActionScheduler_wpPostStore_PostTypeRegistrar.php:20
+msgid "Scheduled actions are hooks triggered on a cetain date and time."
+msgstr "Scheduled actions are hooks triggered on a cetain date and time."
+
+#: ../includes/action-scheduler/classes/ActionScheduler_wpPostStore_PostTypeRegistrar.php:31
+msgid "Scheduled Action"
+msgstr "Scheduled Action"
+
+#: ../includes/action-scheduler/classes/ActionScheduler_wpPostStore_PostTypeRegistrar.php:33
+msgid "Add"
+msgstr "Add"
+
+#: ../includes/action-scheduler/classes/ActionScheduler_wpPostStore_PostTypeRegistrar.php:34
+msgid "Add New Scheduled Action"
+msgstr "Add New Scheduled Action"
+
+#: ../includes/action-scheduler/classes/ActionScheduler_wpPostStore_PostTypeRegistrar.php:35
+msgid "Edit"
+msgstr "Edit"
+
+#: ../includes/action-scheduler/classes/ActionScheduler_wpPostStore_PostTypeRegistrar.php:36
+msgid "Edit Scheduled Action"
+msgstr "Edit Scheduled Action"
+
+#: ../includes/action-scheduler/classes/ActionScheduler_wpPostStore_PostTypeRegistrar.php:37
+msgid "New Scheduled Action"
+msgstr "New Scheduled Action"
+
+#: ../includes/action-scheduler/classes/ActionScheduler_wpPostStore_PostTypeRegistrar.php:38
+#: ../includes/action-scheduler/classes/ActionScheduler_wpPostStore_PostTypeRegistrar.php:39
+msgid "View Action"
+msgstr "View Action"
+
+#: ../includes/action-scheduler/classes/ActionScheduler_wpPostStore_PostTypeRegistrar.php:40
+msgid "Search Scheduled Actions"
+msgstr "Search Scheduled Actions"
+
+#: ../includes/action-scheduler/classes/ActionScheduler_wpPostStore_PostTypeRegistrar.php:41
+msgid "No actions found"
+msgstr "No actions found"
+
+#: ../includes/action-scheduler/classes/ActionScheduler_wpPostStore_PostTypeRegistrar.php:42
+msgid "No actions found in trash"
+msgstr "No actions found in trash"
+
+#: ../includes/action-scheduler/classes/ActionScheduler_wpPostStore_TaxonomyRegistrar.php:14
+msgid "Action Group"
+msgstr "Action Group"
+
+#: ../includes/class-follow-up-emails.php:111
+msgid "minute"
+msgstr "minute"
+
+#: ../includes/class-follow-up-emails.php:111
+msgid "minutes"
+msgstr "minutes"
+
+#: ../includes/class-follow-up-emails.php:112
+msgid "hour"
+msgstr "hour"
+
+#: ../includes/class-follow-up-emails.php:112
+msgid "hours"
+msgstr "hours"
+
+#: ../includes/class-follow-up-emails.php:113
+msgid "day"
+msgstr "day"
+
+#: ../includes/class-follow-up-emails.php:113
+msgid "days"
+msgstr "days"
+
+#: ../includes/class-follow-up-emails.php:114
+msgid "week"
+msgstr "week"
+
+#: ../includes/class-follow-up-emails.php:114
+msgid "weeks"
+msgstr "weeks"
+
+#: ../includes/class-follow-up-emails.php:115
+msgid "month"
+msgstr "month"
+
+#: ../includes/class-follow-up-emails.php:115
+msgid "months"
+msgstr "months"
+
+#: ../includes/class-follow-up-emails.php:116
+msgid "year"
+msgstr "year"
+
+#: ../includes/class-follow-up-emails.php:116
+msgid "years"
+msgstr "years"
+
+#: ../includes/class-follow-up-emails.php:117
+msgid "on this date"
+msgstr "on this date"
+
+#: ../includes/class-follow-up-emails.php:218
+msgid "Signup Emails"
+msgstr "Signup Emails"
+
+#: ../includes/class-follow-up-emails.php:219
+msgid "Signup Email"
+msgstr "Signup Email"
+
+#: ../includes/class-follow-up-emails.php:220
+msgid "after user signs up"
+msgstr "after user signs up"
+
+#: ../includes/class-follow-up-emails.php:222
+msgid ""
+"Sign up emails will send to a new user in your store based upon the criteria "
+"you define when creating your emails. Below are the existing Sign up emails "
+"set up for your store. Use the priorities to define which emails are most "
+"important. These emails are selected first when sending the email to the "
+"customer if more than one criteria is met by multiple emails. Only one email "
+"is sent out to the customer (unless you enable the Always Send option when "
+"creating your emails), so prioritizing the emails for occasions where "
+"multiple criteria are met ensures you send the right email to the right "
+"customer at the time you choose."
+msgstr ""
+"Sign up emails will send to a new user in your store based upon the criteria "
+"you define when creating your emails. Below are the existing Sign up emails "
+"set up for your store. Use the priorities to define which emails are most "
+"important. These emails are selected first when sending the email to the "
+"customer if more than one criteria is met by multiple emails. Only one email "
+"is sent out to the customer (unless you enable the Always Send option when "
+"creating your emails), so prioritizing the emails for occasions where "
+"multiple criteria are met ensures you send the right email to the right "
+"customer at the time you choose."
+
+#: ../includes/class-follow-up-emails.php:227
+msgid "Manual Emails"
+msgstr "Manual Emails"
+
+#: ../includes/class-follow-up-emails.php:228
+#: ../includes/class-fue-email.php:188 ../templates/reports/user_view.php:138
+msgid "Manual Email"
+msgstr "Manual Email"
+
+#: ../includes/class-follow-up-emails.php:231
+msgid ""
+"Manual emails allow you to create email templates for you and your team to "
+"utilize when you need to send emails immediately to customers or prospective "
+"customers. Creating a manual email will allow you to reduce manual entry and "
+"duplication when you send emails from your email client, and keep emails "
+"consistent. Below are the existing Manual emails set up for your store."
+msgstr ""
+"Manual emails allow you to create email templates for you and your team to "
+"utilize when you need to send emails immediately to customers or prospective "
+"customers. Creating a manual email will allow you to reduce manual entry and "
+"duplication when you send emails from your email client, and keep emails "
+"consistent. Below are the existing Manual emails set up for your store."
+
+#: ../includes/class-fue-admin-actions.php:144
+msgid "Follow-up emails updated"
+msgstr "Follow-up emails updated"
+
+#: ../includes/class-fue-admin-actions.php:424
+msgid "The email address is invalid"
+msgstr "The email address is invalid"
+
+#: ../includes/class-fue-admin-actions.php:489
+msgid "Bulk edit failed. Invalid Nonce."
+msgstr "Bulk edit failed. Invalid Nonce."
+
+#: ../includes/class-fue-admin-actions.php:521
+msgid "Error: Unknown action."
+msgstr "Error: Unknown action."
+
+#: ../includes/class-fue-admin-actions.php:555
+msgid "Action failed. Invalid user ID."
+msgstr "Action failed. Invalid user ID."
+
+#: ../includes/class-fue-admin-actions.php:566
+msgid "Action failed. Invalid product ID."
+msgstr "Action failed. Invalid product ID."
+
+#: ../includes/class-fue-admin-actions.php:609
+msgid "Scheduled email updated successfully"
+msgstr "Scheduled email updated successfully"
+
+#: ../includes/class-fue-admin-actions.php:626
+msgid "Scheduled email deleted"
+msgstr "Scheduled email deleted"
+
+#: ../includes/class-fue-admin-actions.php:651
+msgid "Scheduled email sent"
+msgstr "Scheduled email sent"
+
+#: ../includes/class-fue-admin-controller.php:14
+#: ../includes/class-fue-admin-controller.php:15
+#: ../includes/class-fue-admin-controller.php:74
+#: ../includes/class-fue-post-types.php:53
+msgid "Follow-Up Emails"
+msgstr "Follow-Up Emails"
+
+#: ../includes/class-fue-admin-controller.php:15
+msgid "Emails"
+msgstr "Emails"
+
+#: ../includes/class-fue-admin-controller.php:18
+#: ../includes/class-fue-admin-controller.php:20
+msgid "New Email"
+msgstr "New Email"
+
+#: ../includes/class-fue-admin-controller.php:20
+msgid "Update Email"
+msgstr "Update Email"
+
+#: ../includes/class-fue-admin-controller.php:25
+msgid "Scheduled Emails"
+msgstr "Scheduled Emails"
+
+#: ../includes/class-fue-admin-controller.php:26
+msgid "Manage Opt-outs"
+msgstr "Manage Opt-outs"
+
+#: ../includes/class-fue-admin-controller.php:26
+msgid "Opt-outs"
+msgstr "Opt-outs"
+
+#: ../includes/class-fue-admin-controller.php:27
+msgid "Follow-Up Emails Settings"
+msgstr "Follow-Up Emails Settings"
+
+#: ../includes/class-fue-admin-controller.php:27
+msgid "Settings"
+msgstr "Settings"
+
+#: ../includes/class-fue-admin-controller.php:281
+#: ../includes/class-fue-reports.php:399
+msgid "Email Name"
+msgstr "Email Name"
+
+#: ../includes/class-fue-admin-controller.php:282
+msgid "Processing request..."
+msgstr "Processing request..."
+
+#: ../includes/class-fue-admin-controller.php:283
+msgid ""
+"A follow-up email with the same settings already exists. Do you want to "
+"create it anyway?"
+msgstr ""
+"A follow-up email with the same settings already exists. Do you want to "
+"create it anyway?"
+
+#: ../includes/class-fue-admin-controller.php:284
+msgid "A similar follow-up email already exists. Do you wish to continue?"
+msgstr "A similar follow-up email already exists. Do you wish to continue?"
+
+#: ../includes/class-fue-admin-controller.php:285
+msgid "Save"
+msgstr "Save"
+
+#: ../includes/class-fue-admin-controller.php:285
+msgid "Build your email"
+msgstr "Build your email"
+
+#: ../includes/class-fue-ajax.php:266 ../includes/class-fue-ajax.php:346
+msgid "Active"
+msgstr "Active"
+
+#: ../includes/class-fue-ajax.php:267 ../includes/class-fue-ajax.php:346
+msgid "Deactivate"
+msgstr "Deactivate"
+
+#: ../includes/class-fue-ajax.php:271
+msgid "Inactive"
+msgstr "Inactive"
+
+#: ../includes/class-fue-ajax.php:272 ../includes/class-fue-ajax.php:329
+#: ../includes/class-fue-order-queue-list-table.php:262
+#: ../includes/class-fue-order-queue-list-table.php:348
+msgid "Activate"
+msgstr "Activate"
+
+#: ../includes/class-fue-ajax.php:298
+#: ../includes/class-fue-order-queue-list-table.php:249
+#: ../templates/reports/user_view.php:157
+msgid "Queued"
+msgstr "Queued"
+
+#: ../includes/class-fue-ajax.php:299 ../templates/reports/user_view.php:158
+msgid "Do not send"
+msgstr "Do not send"
+
+#: ../includes/class-fue-ajax.php:310
+#: ../includes/class-fue-order-queue-list-table.php:260
+#: ../templates/reports/user_view.php:160
+msgid "Suspended"
+msgstr "Suspended"
+
+#: ../includes/class-fue-ajax.php:311 ../templates/reports/user_view.php:161
+msgid "Re-enable"
+msgstr "Re-enable"
+
+#: ../includes/class-fue-ajax.php:329
+msgid "Archived"
+msgstr "Archived"
+
+#: ../includes/class-fue-ajax.php:348
+msgid "Archive"
+msgstr "Archive"
+
+#: ../includes/class-fue-bookings.php:61
+msgid "Before Booked Date"
+msgstr "Before Booked Date"
+
+#: ../includes/class-fue-bookings.php:62
+msgid "After Booked Date"
+msgstr "After Booked Date"
+
+#: ../includes/class-fue-bookings.php:63
+msgid "After Booking is Created"
+msgstr "After Booking is Created"
+
+#: ../includes/class-fue-bookings.php:68
+#, php-format
+msgid "After Booking Status: %s"
+msgstr "After Booking Status: %s"
+
+#: ../includes/class-fue-bookings.php:72
+msgid "WooCommerce Bookings"
+msgstr "WooCommerce Bookings"
+
+#: ../includes/class-fue-bookings.php:73
+msgid "WooCommerce Booking"
+msgstr "WooCommerce Booking"
+
+#: ../includes/class-fue-bookings.php:76
+msgid ""
+"WooCommerce Bookings is an extension that allows you to sell your time or "
+"date based bookings. You can send follow-up emails to customers that book "
+"appointments, services or rentals."
+msgstr ""
+"WooCommerce Bookings is an extension that allows you to sell your time or "
+"date based bookings. You can send follow-up emails to customers that book "
+"appointments, services or rentals."
+
+#: ../includes/class-fue-bookings.php:77
+msgid ""
+"You can send follow-up emails to customers that book appointments, services "
+"or rentals."
+msgstr ""
+"You can send follow-up emails to customers that book appointments, services "
+"or rentals."
+
+#: ../includes/class-fue-coupons.php:54
+#: ../includes/class-fue-woocommerce-reports.php:23
+msgid "Coupons"
+msgstr "Coupons"
+
+#: ../includes/class-fue-coupons.php:456
+msgid "Coupon code generated"
+msgstr "Coupon code generated"
+
+#: ../includes/class-fue-email.php:184
+msgid "n/a - Please finish saving this email"
+msgstr "n/a - Please finish saving this email"
+
+#: ../includes/class-fue-email.php:192 ../templates/reports/user_view.php:141
+#, php-format
+msgid "Send on %s"
+msgstr "Send on %s"
+
+#: ../includes/class-fue-email.php:195 ../templates/reports/user_view.php:143
+#, php-format
+msgid "%d %s after user signs up"
+msgstr "%d %s after user signs up"
+
+#: ../includes/class-fue-email.php:205
+#: ../includes/class-the-events-calendar.php:73
+#: ../templates/reports/user_view.php:145
+#, php-format
+msgid "%d %s %s"
+msgstr "%d %s %s"
+
+#: ../includes/class-fue-email.php:211
+#, php-format
+msgid "Error getting the trigger. %s is not a valid type"
+msgstr "Error getting the trigger. %s is not a valid type"
+
+#: ../includes/class-fue-form-handler.php:36
+msgid "Thank you. You have been unsubscribed from our list."
+msgstr "Thank you. You have been unsubscribed from our list."
+
+#: ../includes/class-fue-form-handler.php:59
+msgid "Account updated"
+msgstr "Account updated"
+
+#: ../includes/class-fue-install.php:379
+msgid "Follow-Up Emails Manager"
+msgstr "Follow-Up Emails Manager"
+
+#: ../includes/class-fue-mailer.php:55
+msgid "Queue item deleted because no email was assigned to it"
+msgstr "Queue item deleted because no email was assigned to it"
+
+#: ../includes/class-fue-mailer.php:60
+msgid "Queue item have already been sent"
+msgstr "Queue item have already been sent"
+
+#: ../includes/class-fue-mailer.php:67
+msgid "Could not send email because it is not active"
+msgstr "Could not send email because it is not active"
+
+#: ../includes/class-fue-mailer.php:78
+msgid ""
+"Cannot send emails without a subject and a message. Email has been "
+"deactivated"
+msgstr ""
+"Cannot send emails without a subject and a message. Email has been "
+"deactivated"
+
+#: ../includes/class-fue-mailer.php:84
+msgid ""
+"This email is locked due to a previous attempt in sending the email. Sending "
+"has been rescheduled to avoid duplicate emails."
+msgstr ""
+"This email is locked due to a previous attempt in sending the email. Sending "
+"has been rescheduled to avoid duplicate emails."
+
+#: ../includes/class-fue-mailer.php:97
+msgid ""
+"The customer opted out of recieving non-order related emails. Email has been "
+"deleted."
+msgstr ""
+"The customer opted out of recieving non-order related emails. Email has been "
+"deleted."
+
+#: ../includes/class-fue-mailer.php:106
+msgid "The customer is on the \"Exclude Emails\" list. Email deleted."
+msgstr "The customer is on the \"Exclude Emails\" list. Email deleted."
+
+#: ../includes/class-fue-mailer.php:114
+msgid "An add-on has marked this email to be skipped."
+msgstr "An add-on has marked this email to be skipped."
+
+#: ../includes/class-fue-order-queue-list-table.php:172
+#, php-format
+msgid "<a href=\"%s\">#%d - %s &lt;%s&gt;"
+msgstr "<a href=\"%s\">#%d - %s &lt;%s&gt;"
+
+#: ../includes/class-fue-order-queue-list-table.php:180
+#, php-format
+msgid "%s &lt;%s&gt;"
+msgstr "%s &lt;%s&gt;"
+
+#: ../includes/class-fue-order-queue-list-table.php:201
+#, php-format
+msgid "<a href=\"%s\">%s</a>"
+msgstr "<a href=\"%s\">%s</a>"
+
+#: ../includes/class-fue-order-queue-list-table.php:220
+#, php-format
+msgid "<a href=\"%s\">#%d %s</a><br/><small>(%s)</small>"
+msgstr "<a href=\"%s\">#%d %s</a><br/><small>(%s)</small>"
+
+#: ../includes/class-fue-order-queue-list-table.php:236
+#: ../includes/class-fue-order-queue-list-table.php:350
+msgid "Delete"
+msgstr "Delete"
+
+#: ../includes/class-fue-order-queue-list-table.php:239
+msgid "Sent"
+msgstr "Sent"
+
+#: ../includes/class-fue-order-queue-list-table.php:242
+#, php-format
+msgid "%s<br/><small><a href=\"%s\">%s</a></small>"
+msgstr "%s<br/><small><a href=\"%s\">%s</a></small>"
+
+#: ../includes/class-fue-order-queue-list-table.php:251
+#: ../includes/class-fue-order-queue-list-table.php:349
+msgid "Suspend"
+msgstr "Suspend"
+
+#: ../includes/class-fue-order-queue-list-table.php:255
+msgid "Send Now"
+msgstr "Send Now"
+
+#: ../includes/class-fue-order-queue-list-table.php:271
+#, php-format
+msgid "%s<br/><small>%s</small>"
+msgstr "%s<br/><small>%s</small>"
+
+#: ../includes/class-fue-order-queue-list-table.php:311
+msgid "Recipient"
+msgstr "Recipient"
+
+#: ../includes/class-fue-order-queue-list-table.php:312
+#: ../includes/class-fue-reports.php:402
+msgid "Order"
+msgstr "Order"
+
+#: ../includes/class-fue-order-queue-list-table.php:313
+msgid "Email"
+msgstr "Email"
+
+#: ../includes/class-fue-order-queue-list-table.php:315
+msgid "Scheduled"
+msgstr "Scheduled"
+
+#: ../includes/class-fue-order-queue-list-table.php:316
+msgid "Notes"
+msgstr "Notes"
+
+#: ../includes/class-fue-order-queue-list-table.php:406
+msgid "Filter"
+msgstr "Filter"
+
+#: ../includes/class-fue-order-queue-list-table.php:437
+#, php-format
+msgid "Showing only emails containing \"%s\""
+msgstr "Showing only emails containing \"%s\""
+
+#: ../includes/class-fue-order-queue-list-table.php:453
+msgid "Invalid user. "
+msgstr "Invalid user. "
+
+#: ../includes/class-fue-order-queue-list-table.php:455
+#, php-format
+msgid "Showing %s's emails"
+msgstr "Showing %s's emails"
+
+#: ../includes/class-fue-order-queue-list-table.php:465
+msgid "Invalid product."
+msgstr "Invalid product."
+
+#: ../includes/class-fue-order-queue-list-table.php:467
+#, php-format
+msgid " for product #%s &ndash; %s%s%s"
+msgstr " for product #%s &ndash; %s%s%s"
+
+#: ../includes/class-fue-order-queue-list-table.php:469
+#, php-format
+msgid "Showing emails for product #%s &ndash; %s%s%s"
+msgstr "Showing emails for product #%s &ndash; %s%s%s"
+
+#: ../includes/class-fue-points-and-rewards.php:47
+msgid "After: Points Earned"
+msgstr "After: Points Earned"
+
+#: ../includes/class-fue-points-and-rewards.php:48
+msgid "Earned Points is greater than"
+msgstr "Earned Points is greater than"
+
+#: ../includes/class-fue-points-and-rewards.php:51
+msgid "Points and Rewards Emails"
+msgstr "Points and Rewards Emails"
+
+#: ../includes/class-fue-points-and-rewards.php:52
+msgid "Points and Rewards Email"
+msgstr "Points and Rewards Email"
+
+#: ../includes/class-fue-points-and-rewards.php:55
+msgid ""
+"Points and Rewards emails will send to a user based upon the point earnings "
+"status you define when creating your emails. Below are the existing Points "
+"and Rewards emails set up for your store. Use the priorities to define which "
+"emails are most important. These emails are selected first when sending the "
+"email to the customer if more than one criteria is met by multiple emails. "
+"Only one email is sent out to the customer (unless you enable the Always "
+"Send option when creating your emails), so prioritizing the emails for "
+"occasions where multiple criteria are met ensures you send the right email "
+"to the right customer at the time you choose."
+msgstr ""
+"Points and Rewards emails will send to a user based upon the point earnings "
+"status you define when creating your emails. Below are the existing Points "
+"and Rewards emails set up for your store. Use the priorities to define which "
+"emails are most important. These emails are selected first when sending the "
+"email to the customer if more than one criteria is met by multiple emails. "
+"Only one email is sent out to the customer (unless you enable the Always "
+"Send option when creating your emails), so prioritizing the emails for "
+"occasions where multiple criteria are met ensures you send the right email "
+"to the right customer at the time you choose."
+
+#: ../includes/class-fue-points-and-rewards.php:56
+msgid ""
+"Points and Rewards emails will send to a user based upon the point earnings "
+"status you define when creating your emails."
+msgstr ""
+"Points and Rewards emails will send to a user based upon the point earnings "
+"status you define when creating your emails."
+
+#: ../includes/class-fue-points-and-rewards.php:224
+#, php-format
+msgid "%d %s %s %d"
+msgstr "%d %s %s %d"
+
+#: ../includes/class-fue-post-types.php:54
+msgid "Follow-Up Email"
+msgstr "Follow-Up Email"
+
+#: ../includes/class-fue-reports.php:36
+msgid "Reports"
+msgstr "Reports"
+
+#: ../includes/class-fue-reports.php:400
+msgid "Email Address"
+msgstr "Email Address"
+
+#: ../includes/class-fue-reports.php:401
+msgid "Product"
+msgstr "Product"
+
+#: ../includes/class-fue-reports.php:403
+msgid "Trigger"
+msgstr "Trigger"
+
+#: ../includes/class-fue-reports.php:404
+msgid "Sent Coupon"
+msgstr "Sent Coupon"
+
+#: ../includes/class-fue-reports.php:413
+msgid "Follow-up emails summary"
+msgstr "Follow-up emails summary"
+
+#: ../includes/class-fue-reports.php:564
+msgid "The selected reports have been deleted"
+msgstr "The selected reports have been deleted"
+
+#: ../includes/class-fue-sensei.php:54
+msgid "after selecting a specific answer"
+msgstr "after selecting a specific answer"
+
+#: ../includes/class-fue-sensei.php:55
+msgid "after signed up to a course"
+msgstr "after signed up to a course"
+
+#: ../includes/class-fue-sensei.php:56
+msgid "after course is completed"
+msgstr "after course is completed"
+
+#: ../includes/class-fue-sensei.php:57
+msgid "after lesson is started"
+msgstr "after lesson is started"
+
+#: ../includes/class-fue-sensei.php:58
+msgid "after lesson is completed"
+msgstr "after lesson is completed"
+
+#: ../includes/class-fue-sensei.php:59
+msgid "after completing a quiz"
+msgstr "after completing a quiz"
+
+#: ../includes/class-fue-sensei.php:60
+msgid "after passing a quiz"
+msgstr "after passing a quiz"
+
+#: ../includes/class-fue-sensei.php:61
+msgid "after failing a quiz"
+msgstr "after failing a quiz"
+
+#: ../includes/class-fue-sensei.php:65
+msgid "Sensei Emails"
+msgstr "Sensei Emails"
+
+#: ../includes/class-fue-sensei.php:66
+msgid "Sensei Email"
+msgstr "Sensei Email"
+
+#: ../includes/class-fue-sensei.php:69
+msgid ""
+"Sensei emails will send to a user based upon the quiz/course/lesson/test "
+"status you define when creating your emails. Below are the existing Sensei "
+"emails set up for your store. Use the priorities to define which emails are "
+"most important. These emails are selected first when sending the email to "
+"the customer if more than one criteria is met by multiple emails. Only one "
+"email is sent out to the customer (unless you enable the Always Send option "
+"when creating your emails), so prioritizing the emails for occasions where "
+"multiple criteria are met ensures you send the right email to the right "
+"customer at the time you choose."
+msgstr ""
+"Sensei emails will send to a user based upon the quiz/course/lesson/test "
+"status you define when creating your emails. Below are the existing Sensei "
+"emails set up for your store. Use the priorities to define which emails are "
+"most important. These emails are selected first when sending the email to "
+"the customer if more than one criteria is met by multiple emails. Only one "
+"email is sent out to the customer (unless you enable the Always Send option "
+"when creating your emails), so prioritizing the emails for occasions where "
+"multiple criteria are met ensures you send the right email to the right "
+"customer at the time you choose."
+
+#: ../includes/class-fue-sensei.php:70
+msgid ""
+"Sensei emails will send to a user based upon the quiz/course/lesson/test "
+"status you define when creating your emails."
+msgstr ""
+"Sensei emails will send to a user based upon the quiz/course/lesson/test "
+"status you define when creating your emails."
+
+#: ../includes/class-fue-sensei.php:436 ../includes/class-fue-sensei.php:441
+#: ../includes/class-fue-sensei.php:442 ../includes/class-fue-sensei.php:448
+#: ../includes/class-fue-sensei.php:449
+msgid "The name of the course"
+msgstr "The name of the course"
+
+#: ../includes/class-fue-sensei.php:450
+msgid "The score the user got on the quiz"
+msgstr "The score the user got on the quiz"
+
+#: ../includes/class-fue-sensei.php:451
+msgid "The passing mark on the quiz taken"
+msgstr "The passing mark on the quiz taken"
+
+#: ../includes/class-fue-subscriptions.php:80
+msgid "after subscription activated"
+msgstr "after subscription activated"
+
+#: ../includes/class-fue-subscriptions.php:81
+msgid "after subscription renewed"
+msgstr "after subscription renewed"
+
+#: ../includes/class-fue-subscriptions.php:82
+msgid "after subscription cancelled"
+msgstr "after subscription cancelled"
+
+#: ../includes/class-fue-subscriptions.php:83
+msgid "after subscription expired"
+msgstr "after subscription expired"
+
+#: ../includes/class-fue-subscriptions.php:84
+msgid "after subscription suspended"
+msgstr "after subscription suspended"
+
+#: ../includes/class-fue-subscriptions.php:85
+msgid "after subscription reactivated"
+msgstr "after subscription reactivated"
+
+#: ../includes/class-fue-subscriptions.php:86
+msgid "after a renewal order has been created"
+msgstr "after a renewal order has been created"
+
+#: ../includes/class-fue-subscriptions.php:87
+msgid "before next automatic subscription payment"
+msgstr "before next automatic subscription payment"
+
+#: ../includes/class-fue-subscriptions.php:88
+msgid "before active subscription expires"
+msgstr "before active subscription expires"
+
+#: ../includes/class-fue-subscriptions.php:92
+msgid "Subscription Emails"
+msgstr "Subscription Emails"
+
+#: ../includes/class-fue-subscriptions.php:93
+msgid "Subscription Email"
+msgstr "Subscription Email"
+
+#: ../includes/class-fue-subscriptions.php:96
+msgid ""
+"Subscription emails will send to a user based upon the subscription status "
+"you define when creating your emails. Below are the existing Subscription "
+"emails set up for your store. Use the priorities to define which emails are "
+"most important. These emails are selected first when sending the email to "
+"the customer if more than one criteria is met by multiple emails. Only one "
+"email is sent out to the customer (unless you enable the Always Send option "
+"when creating your emails), so prioritizing the emails for occasions where "
+"multiple criteria are met ensures you send the right email to the right "
+"customer at the time you choose."
+msgstr ""
+"Subscription emails will send to a user based upon the subscription status "
+"you define when creating your emails. Below are the existing Subscription "
+"emails set up for your store. Use the priorities to define which emails are "
+"most important. These emails are selected first when sending the email to "
+"the customer if more than one criteria is met by multiple emails. Only one "
+"email is sent out to the customer (unless you enable the Always Send option "
+"when creating your emails), so prioritizing the emails for occasions where "
+"multiple criteria are met ensures you send the right email to the right "
+"customer at the time you choose."
+
+#: ../includes/class-fue-subscriptions.php:97
+msgid ""
+"Subscription emails will send to a user based upon the subscription status "
+"you define when creating your emails."
+msgstr ""
+"Subscription emails will send to a user based upon the subscription status "
+"you define when creating your emails."
+
+#: ../includes/class-fue-subscriptions.php:658
+#: ../includes/class-fue-subscriptions.php:722
+msgid "Until Cancelled"
+msgstr "Until Cancelled"
+
+#: ../includes/class-fue-subscriptions.php:844
+#, php-format
+msgid "Subscription payment failed for Order %s"
+msgstr "Subscription payment failed for Order %s"
+
+#: ../includes/class-fue-subscriptions.php:845
+#, php-format
+msgid ""
+"A subscription payment for the order %s has failed. The subscription has now "
+"been automatically put on hold."
+msgstr ""
+"A subscription payment for the order %s has failed. The subscription has now "
+"been automatically put on hold."
+
+#: ../includes/class-fue-warranty.php:36
+msgid "after warranty status changes"
+msgstr "after warranty status changes"
+
+#: ../includes/class-fue-woocommerce-admin.php:436
+msgid "All Users"
+msgstr "All Users"
+
+#: ../includes/class-fue-woocommerce-admin.php:437
+msgid "All Customers"
+msgstr "All Customers"
+
+#: ../includes/class-fue-woocommerce-admin.php:438
+msgid "This Customer"
+msgstr "This Customer"
+
+#: ../includes/class-fue-woocommerce-admin.php:439
+msgid "Customers who bought these products"
+msgstr "Customers who bought these products"
+
+#: ../includes/class-fue-woocommerce-admin.php:440
+msgid "Customers who bought from these categories"
+msgstr "Customers who bought from these categories"
+
+#: ../includes/class-fue-woocommerce-admin.php:441
+msgid "Customers who bought between these dates"
+msgstr "Customers who bought between these dates"
+
+#: ../includes/class-fue-woocommerce-mailer.php:518
+msgid "The Order ID does not exist. Please try again."
+msgstr "The Order ID does not exist. Please try again."
+
+#: ../includes/class-fue-woocommerce-reports.php:87
+msgid "No reports available"
+msgstr "No reports available"
+
+#: ../includes/class-fue-woocommerce-reports.php:91
+#: ../templates/email-list/simple-list.php:97
+#: ../templates/email-list/simple-list.php:207
+msgid "No"
+msgstr "No"
+
+#: ../includes/class-fue-woocommerce-reports.php:95
+#, php-format
+msgid "Yes (%s)"
+msgstr "Yes (%s)"
+
+#: ../includes/class-fue-woocommerce-scheduler.php:1581
+#, php-format
+msgid "Email queued: %s scheduled on %s<br/>Trigger: %s"
+msgstr "Email queued: %s scheduled on %s<br/>Trigger: %s"
+
+#: ../includes/class-fue-woocommerce.php:131
+#, php-format
+msgid "after Order Status: %s"
+msgstr "after Order Status: %s"
+
+#: ../includes/class-fue-woocommerce.php:136
+msgid "after first purchase"
+msgstr "after first purchase"
+
+#: ../includes/class-fue-woocommerce.php:137
+msgid "after added to cart"
+msgstr "after added to cart"
+
+#: ../includes/class-fue-woocommerce.php:138
+#: ../includes/class-fue-woocommerce.php:147
+msgid "after customer purchased more than one time"
+msgstr "after customer purchased more than one time"
+
+#: ../includes/class-fue-woocommerce.php:144
+msgid "after last purchase"
+msgstr "after last purchase"
+
+#: ../includes/class-fue-woocommerce.php:145
+msgid "after order total is above"
+msgstr "after order total is above"
+
+#: ../includes/class-fue-woocommerce.php:146
+msgid "after order total is below"
+msgstr "after order total is below"
+
+#: ../includes/class-fue-woocommerce.php:148
+msgid "after total orders by customer"
+msgstr "after total orders by customer"
+
+#: ../includes/class-fue-woocommerce.php:149
+msgid "after total purchase amount by customer"
+msgstr "after total purchase amount by customer"
+
+#: ../includes/class-fue-woocommerce.php:154
+msgid "after refunded manually"
+msgstr "after refunded manually"
+
+#: ../includes/class-fue-woocommerce.php:155
+msgid "after refunded successfully"
+msgstr "after refunded successfully"
+
+#: ../includes/class-fue-woocommerce.php:156
+msgid "after refund failed"
+msgstr "after refund failed"
+
+#: ../includes/class-fue-woocommerce.php:161
+msgid "Storewide Emails"
+msgstr "Storewide Emails"
+
+#: ../includes/class-fue-woocommerce.php:162
+msgid "Storewide Email"
+msgstr "Storewide Email"
+
+#: ../includes/class-fue-woocommerce.php:165
+#: ../includes/class-fue-woocommerce.php:166
+msgid ""
+"Storewide emails will send to a buyer of any product within your store based "
+"upon the criteria you define when creating your emails."
+msgstr ""
+"Storewide emails will send to a buyer of any product within your store based "
+"upon the criteria you define when creating your emails."
+
+#: ../includes/class-fue-woocommerce.php:171
+msgid "Customer Emails"
+msgstr "Customer Emails"
+
+#: ../includes/class-fue-woocommerce.php:172
+msgid "Customer Email"
+msgstr "Customer Email"
+
+#: ../includes/class-fue-woocommerce.php:175
+#: ../includes/class-fue-woocommerce.php:176
+msgid ""
+"Customer specific emails will re-engage your customers in the future by "
+"following up with emails specifically related to total purchases, dollar "
+"amounts, and other customer lifetime value metrics."
+msgstr ""
+"Customer specific emails will re-engage your customers in the future by "
+"following up with emails specifically related to total purchases, dollar "
+"amounts, and other customer lifetime value metrics."
+
+#: ../includes/class-fue-woocommerce.php:181
+msgid "Reminder Emails"
+msgstr "Reminder Emails"
+
+#: ../includes/class-fue-woocommerce.php:182
+msgid "Reminder Email"
+msgstr "Reminder Email"
+
+#: ../includes/class-fue-woocommerce.php:184
+msgid "after Order Status: processing"
+msgstr "after Order Status: processing"
+
+#: ../includes/class-fue-woocommerce.php:185
+msgid "after Order Status: completed"
+msgstr "after Order Status: completed"
+
+#: ../includes/class-fue-woocommerce.php:188
+#: ../includes/class-fue-woocommerce.php:189
+msgid ""
+"Reminder emails will send to a user based upon the quantity of products "
+"purchased. They will automatically trigger at a set interval for a duration "
+"equal to the quantity purchased."
+msgstr ""
+"Reminder emails will send to a user based upon the quantity of products "
+"purchased. They will automatically trigger at a set interval for a duration "
+"equal to the quantity purchased."
+
+#: ../includes/class-fue-woocommerce.php:296
+#, php-format
+msgid "%s &ndash; %s%s"
+msgstr "%s &ndash; %s%s"
+
+#: ../includes/class-the-events-calendar.php:46
+msgid "before event starts"
+msgstr "before event starts"
+
+#: ../includes/class-the-events-calendar.php:47
+msgid "after event ends"
+msgstr "after event ends"
+
+#: ../includes/class-the-events-calendar.php:50
+#: ../includes/class-the-events-calendar.php:51
+msgid "WooTickets"
+msgstr "WooTickets"
+
+#: ../includes/class-the-events-calendar.php:54
+msgid ""
+"WooCommerce Tickets emails will send to a user based upon the event/ticket "
+"status you define when creating your emails. Below are the existing "
+"WooCommerce Tickets emails set up for your store. Use the priorities to "
+"define which emails are most important. These emails are selected first when "
+"sending the email to the customer if more than one criteria is met by "
+"multiple emails. Only one email is sent out to the customer (unless you "
+"enable the Always Send option when creating your emails), so prioritizing "
+"the emails for occasions where multiple criteria are met ensures you send "
+"the right email to the right customer at the time you choose."
+msgstr ""
+"WooCommerce Tickets emails will send to a user based upon the event/ticket "
+"status you define when creating your emails. Below are the existing "
+"WooCommerce Tickets emails set up for your store. Use the priorities to "
+"define which emails are most important. These emails are selected first when "
+"sending the email to the customer if more than one criteria is met by "
+"multiple emails. Only one email is sent out to the customer (unless you "
+"enable the Always Send option when creating your emails), so prioritizing "
+"the emails for occasions where multiple criteria are met ensures you send "
+"the right email to the right customer at the time you choose."
+
+#: ../includes/class-the-events-calendar.php:55
+msgid ""
+"WooCommerce Tickets emails will send to a user based upon the event or "
+"ticket status you define when creating your emails."
+msgstr ""
+"WooCommerce Tickets emails will send to a user based upon the event or "
+"ticket status you define when creating your emails."
+
+#: ../includes/class-the-events-calendar.php:135
+#, php-format
+msgid ""
+"Do not send email if a customer books a ticket %s days before the event "
+"starts."
+msgstr ""
+"Do not send email if a customer books a ticket %s days before the event "
+"starts."
+
+#: ../includes/fue-functions.php:41
+msgid "Cannot update email without the ID"
+msgstr "Cannot update email without the ID"
+
+#: ../includes/fue-functions.php:229
+#, php-format
+msgid "Email (%d) could not be found"
+msgstr "Email (%d) could not be found"
+
+#: ../includes/fue-functions.php:416
+msgid "Cannot update coupon without the ID"
+msgstr "Cannot update coupon without the ID"
+
+#: ../templates/email-list/notifications.php:7
+msgid "Follow-up email updated"
+msgstr "Follow-up email updated"
+
+#: ../templates/email-list/simple-list.php:97
+#: ../templates/email-list/simple-list.php:207
+msgid "Yes"
+msgstr "Yes"
+
+#: ../templates/optout_table.php:12
+#, php-format
+msgid "<em>%s</em> has been added to the opt-out list"
+msgstr "<em>%s</em> has been added to the opt-out list"
+
+#: ../templates/reports/email_open.php:1
+#, php-format
+msgid "Email Opened Report for %s"
+msgstr "Email Opened Report for %s"
+
+#: ../templates/reports/link_click.php:1
+#, php-format
+msgid "Email Link Clicks Report for %s"
+msgstr "Email Link Clicks Report for %s"
+
+#: ../templates/reports/report_view.php:6
+#, php-format
+msgid "Email #%d"
+msgstr "Email #%d"
+
+#: ../templates/reports/report_view.php:12
+#: ../templates/reports/user_view.php:8
+#, php-format
+msgid "Report for %s"
+msgstr "Report for %s"
+
+#: ../templates/reports/user_view.php:11
+#, php-format
+msgid "Report for %s (%s)"
+msgstr "Report for %s (%s)"
+
+#: ../templates/send_manual.php:35
+#, php-format
+msgid "Send Email: %s"
+msgstr "Send Email: %s"
+
+#: ../templates/settings/settings-system.php:56
+#, php-format
+msgid "Send manual emails in batches of %s emails every %s minutes"
+msgstr "Send manual emails in batches of %s emails every %s minutes"
+
+#: ../woocommerce-follow-up-emails.php:63
+#, php-format
+msgid ""
+"Follow-Up Emails requires <a href=\"%s\">WooCommerce</a> or <a href=\"%s"
+"\">WooThemes Sensei</a> to be installed"
+msgstr ""
+"Follow-Up Emails requires <a href=\"%s\">WooCommerce</a> or <a href=\"%s"
+"\">WooThemes Sensei</a> to be installed"
