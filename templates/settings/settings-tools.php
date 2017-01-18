@@ -136,6 +136,21 @@
 
     <hr/>
 
+    <h3><?php _e( 'Debugging', 'follow_up_emails' ); ?></h3>
+
+    <?php $log_level = get_option( 'fue_log_level', 0 ); ?>
+    <p>
+        <label for="log_level"><?php _e( 'Log to file', 'follow_up_emails' ); ?></label>
+        <br />
+        <select id="log_level" name="log_level">
+            <option value="0" <?php selected( $log_level, 0 ); ?>><?php _e( 'None', 'follow_up_emails' ); ?></option>
+            <option value="1" <?php selected( $log_level, 1 ); ?>><?php _e( 'Error', 'follow_up_emails' ); ?></option>
+            <option value="2" <?php selected( $log_level, 2 ); ?>><?php _e( 'Info', 'follow_up_emails' ); ?></option>
+            <option value="4" <?php selected( $log_level, 4 ); ?>><?php _e( 'Debug', 'follow_up_emails' ); ?></option>
+            <option value="8" <?php selected( $log_level, 8 ); ?>><?php _e( 'All', 'follow_up_emails' ); ?></option>
+        </select>
+    </p>
+
     <?php do_action( 'fue_settings_tools' ); ?>
 
     <p class="submit">

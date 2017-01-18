@@ -1,5 +1,8 @@
 *** WooCommerce Follow-Up Emails ***
 
+2017.01.10 - version 4.4.17
+ * Bug fix: Load the cart functions to prevent fatal errors when sending out abandoned cart emails
+
 2016.08.15 - version 4.4.16
  * Bug fix: Check for, and reduce, the length of the transient for manual emails recipients
 

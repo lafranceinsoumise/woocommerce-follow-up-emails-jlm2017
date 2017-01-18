@@ -699,6 +699,10 @@ class FUE_Admin_Actions {
             }
 
         }
+
+        if ( isset( $data['log_level'] ) ) {
+            update_option( 'fue_log_level', $data['log_level'] );
+        }
     }
 
     /**

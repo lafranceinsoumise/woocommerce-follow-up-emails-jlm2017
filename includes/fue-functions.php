@@ -1,6 +1,20 @@
 <?php
 
 /**
+ * Returns the path to the log file
+ */
+function fue_get_log_path() {
+    $uploads = wp_upload_dir();
+    $path    = trailingslashit( $uploads['basedir'] ) . 'fue.log';
+
+    if ( ! file_exists( $path ) ) {
+        touch( $path );
+    }
+
+    return $path;
+}
+
+/**
  * Get the login URL which depends on the installed plugins. If WC is installed,
  * the my-account URL is return. Otherwise, WP's default login URL is returned.
  *

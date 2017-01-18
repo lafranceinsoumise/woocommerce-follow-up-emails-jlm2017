@@ -68,6 +68,11 @@ class Follow_Up_Emails {
     public static $email_type_short_descriptions    = array();
 
     /**
+     * @var FUE_Logger
+     */
+    public $logger;
+
+    /**
      * @var FUE_API
      */
     public $api         = null;
@@ -134,6 +139,9 @@ class Follow_Up_Emails {
             'years'     => array( __('year', 'follow_up_emails'), __('years', 'follow_up_emails') )
         ) );
 
+        $log_level  = get_option( 'fue_log_level', 0 );
+
+        $this->logger       = new FUE_Logger( $log_level, fue_get_log_path() );
         $this->query        = new FUE_Query();
         $this->scheduler    = new FUE_Sending_Scheduler( $this );
         $this->email_vars   = new FUE_Sending_Email_Variables();
@@ -225,6 +233,8 @@ class Follow_Up_Emails {
                 require_once FUE_INC_DIR .'/class-fue-admin-welcome.php';
             }
         }
+
+        require_once FUE_INC_DIR . '/lib/fue-logger.php';
     }
 
     /**
