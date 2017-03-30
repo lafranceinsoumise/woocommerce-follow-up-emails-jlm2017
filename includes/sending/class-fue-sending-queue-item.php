@@ -147,6 +147,10 @@ class FUE_Sending_Queue_Item {
             'date'      => current_time('mysql'),
             'message'   => $message
         );
+        
+        if (!is_array($this->meta)) {
+            $this->meta = array();
+        }
 
         if ( !isset( $this->meta['notes'] ) ) {
             $this->meta['notes'] = array();
